@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="meuestilo.css">
+</head>
+<body>
+    <div class="titulo">
+        <h1>Doceria do jojo</h1>
+    </div>
+    <div>
+        <form action="#">
+            <div>
+                <label for="comment">Comentário</label>
+                <textarea class="quebralinh" cols="25" 
+                          rowa="15" 
+                          name="comentario" 
+                          id="comment">
+
+                </textarea>
+            </div>
+            <div>
+                <label class="quebralinh" for="n">Nome Completo*</label>
+                <input type="text" 
+                       placeholder="mari" 
+                       name="nome" 
+                       id="n" 
+                       required>
+            </div>
+            <div>
+                <label class="quebralinh"for="qtd">quantidade</label>
+                <input type="number" 
+                       name="quantidade" 
+                       id="qtd" 
+                       min="1" 
+                       max="10">
+            </div>
+        <div>
+            <label class="quebralinh"for="mail">E-mail</label>
+            <input class="quebralinh"type="email" 
+            class="quebralinh"name="e-mail" 
+            class="quebralinh"id="mail">
+        </div>
+        <div>
+            <label class="quebralinh"for="nasc">Nascimento</label>
+            <input class="quebralinh"type="date" name="nascimento" id="nasc">
+            <div>
+                <label class="quebralinh"for="sn">senha</label>
+                <input class="quebralinh"type="password" name="senha" id="sn">
+            </div>
+            <div>
+                <p>gostou do doce?</p>
+                <input type="radio" name="feliz" id="y">
+                <label for="y">sim</label>
+                <input type="radio" name="feliz" id="not">
+                <label for="not">nao</label>
+            </div>
+            <div>
+                <p>o que te faz feliz?</p>
+
+                <input type="checkbox" value="dinheiro" name="din" id="money">
+                <label for="money">dinheiro</label>
+                <input type="checkbox" value="familia" name="family" id="fam">
+                <label for="fam">familia</label>
+                <input type="checkbox" value="amor" name="love" id="amor">
+                <label for="amor">amor</label>
+                <input type="checkbox" value="ferias" name="ferias" id="vac">
+                <label for="vac">ferias</label>
+            </div>
+        </div>
+        <div>
+            <label for="c">graduação</label>
+            <select name="curso" id="c">
+                <option value="ADS">analise des. sistema</option>
+                <option value="BES">eng. de software</option>
+                <option value="BM">bio medicina</option>
+                <option value="fisio">fisioterapia</option>
+            </select>
+        </div>
+        <!--botao para enviar o formulario-->
+        <input type="submit" value="salvar">
+    </form>
+    </div>
+    
+</body>
+</html>

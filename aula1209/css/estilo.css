@@ -1,0 +1,21 @@
+body{
+    background-color: aquamarine;
+    width: 70%;
+    margin: 0 auto;
+    padding: 3%;
+    margin-top: 1%;
+    font-style:oblique
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    .titulo{
+        text-align: center;
+        margin: 4%;
+        background-color: rgb(51, 149, 230);
+        section{
+            border: dashed
+        }
+}
+}
+.quebralinha{
+    display: block;
+    margin-bottom: 5%;
+}
